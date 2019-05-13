@@ -1,0 +1,52 @@
+/*general styles*/
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: transparent;
+}
+
+
+/*wrapper styles*/
+.wrapper{
+
+    display:grid;
+    grid-template-columns: 12fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin:0 auto; 
+    padding-top:50px;
+    padding-bottom: 20px;
+    text-align: center; 
+}
+
+.gallery img {
+    margin: 25px;
+    width:90%;
+}
+
+
+/*search styles*/
+input#site-search {
+    grid-column: 1 / -1;
+    padding: 11px;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+}
+
+
+/*media queries*/
+@media (min-width: 600px){
+
+    .gallery img {
+        width: 250px;
+    }
+
+
+    input#site-search {
+        width: 480px;
+    }
+
+}
