@@ -1,0 +1,18 @@
+/*general styles*/
+
+* {
+ box-sizing: border-box;
+ background-color: red;
+}
+
+body {
+
+}
+
+/*search styles*/
+.search-control > input,
+.search-control > button {
+    background-color: #e4f0f5;
+    color: #29627e;
+    font-size: 1.6rem;
+}
